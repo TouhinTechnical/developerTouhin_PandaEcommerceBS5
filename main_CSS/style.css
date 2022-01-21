@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+body{
+    background: #fff;
+}
+.h-80{
+    height: 80px;
+}
+.text-DoveGray{
+    color: #707070;
+}
+/* Menu part */
+.search_custom{
+    position: relative;
+}
+.input_custom {
+	width: 509px;
+	height: 48px;
+	border-radius: 66px;
+	background: #f1f1f1;
+	color: #ccc;
+	border: 1px solid #f1f1f1;
+	padding: 12px;
+}
+.search_custom span {
+	position: absolute;
+	top: 12px;
+	right: 25px;
+	font-size: 18px;
+	color: #bababa;
+}
