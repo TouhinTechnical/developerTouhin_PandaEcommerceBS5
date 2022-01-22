@@ -37,6 +37,9 @@ body{
 .p-68-46{
 	padding: 68px 46px;
 }
+.p-12-30{
+	padding: 12px 30px;
+}
 /* Menu part */
 .search_custom{
     position: relative;
@@ -94,4 +97,11 @@ body{
 }
 .carousel-control-next {
 	right: -110px;
+}
+.categories_item{
+	background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.categories_item img{
+	width: 86px;
+	height: 97px;
 }
