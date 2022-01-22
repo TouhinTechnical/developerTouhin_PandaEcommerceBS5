@@ -1,3 +1,4 @@
+/* Reset  */
 *{
     margin: 0;
     padding: 0;
@@ -12,8 +13,29 @@ body{
 .h-80{
     height: 80px;
 }
+/* BG custom */
+.bg-Bridesmaid{
+	background: #feeae9;
+}
+.bg-Rose{
+	background: #ff136f;
+}
+/* Color custom */
 .text-DoveGray{
     color: #707070;
+}
+.text-Tundora{
+	color: #4e4e4e;
+}
+.text-Rose{
+	color: #ff136f;
+}
+/* margin & padding */
+.mt-63{
+	margin-top: 63px;
+}
+.p-68-46{
+	padding: 68px 46px;
 }
 /* Menu part */
 .search_custom{
@@ -34,4 +56,42 @@ body{
 	right: 25px;
 	font-size: 18px;
 	color: #bababa;
+}
+/* Slider Part */
+.slide_title {
+	font-size: 56px;
+	font-weight: 700;
+}
+.price-code{
+	font-size: 41px;
+}
+.slide-img img{
+	width: 402px;
+	height: 378px;
+}
+.btn-outline-primary {
+	border: none;
+}
+.carousel-indicators [data-bs-target] {
+	background-color: #ff136f;
+}
+.carousel-control-next, .carousel-control-prev {
+	top: 0;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	color: #ff136f;
+	background: #e46596;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	font-size: 15px;
+	line-height: 34px;
+}
+.carousel-control-prev {
+	left: -110px;
+}
+.carousel-control-next {
+	right: -110px;
 }
